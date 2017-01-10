@@ -9,3 +9,17 @@ console.log(numbers);
 
 // console.log
 
+// Array of presumed numbers and returns a sum of the numbers as a number
+function sumNumbers(nums) {
+  console.log('In SplitArray. nums: ', nums);
+  for(var i = 0; i < nums.length; i++) {
+    console.log('i: ', i);
+  }
+}
+
+sumNumbers(numbers);
+
+console.log('The End.');
+
+
+
