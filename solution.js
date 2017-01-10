@@ -12,14 +12,17 @@ console.log(numbers);
 // Array of presumed numbers and returns a sum of the numbers as a number
 function sumNumbers(nums) {
   console.log('In SplitArray. nums: ', nums);
+  var sum = 0;
   for(var i = 0; i < nums.length; i++) {
-    console.log('i: ', i);
+    var num = Number(nums[i]);
+    // FIXME: Don't assume number, but for now happy path only
+    sum += num;
   }
+  return sum;
 }
 
-sumNumbers(numbers);
-
-console.log('The End.');
+var output = sumNumbers(numbers);
+console.log('The End: ', output);
 
 
 
