@@ -21,11 +21,27 @@ Before jumping into code, we talked about Markdown and its benefits. How you sho
 console.log('code example');
 ```
 
-### Taught via Live Coding
+### Live Coding Problem
 
 > Write a node program that takes in an unlimited number of command line arguments, goes through each and prints out the sum of them. If any argument is not a whole number, skip it. Do support negative numbers though.
 
-### Key Points
+
+### Also introduced:
+
+Node `debugger` keyword along with `node debug <file> <args>` which will run `<file>` in the node debugger (please read up on this)
+
+Reference: <https://www.google.ca/search?q=node+debug> -> <https://nodejs.org/api/debugger.html>
+
+Commands to become familiar with: :
+
+1. `repl` (and Ctrl + C to step back out of it)
+2. `cont` or `c`
+3. `next` or `n`
+4. `step` or `s`
+5. <kbd>Ctrl + C</kbd> or `.exit` to exit
+
+
+### Key Points (Summary)
 
 * Inner voice and conversation (hypothesis.)
 * Expecting outcome before running (predicting)
