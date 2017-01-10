@@ -17,6 +17,7 @@ function sumNumbers(nums) {
     var num = Number(nums[i]);
     // FIXME: Don't assume number, but for now happy path only
     sum += num;
+    debugger; // breakpoint
   }
   return sum;
 }
