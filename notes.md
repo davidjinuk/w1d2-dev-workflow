@@ -6,49 +6,24 @@ Week 1 Day 2
 * About me
 * How I/we lecture. Suggestions for you.
 * Assumption about prior knowledge.
-* Remote questions
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* Remote questions (thanks to some of you local students for joining the channel to monitor for questions!)
 
 ## Themes: Approach and Debugging
 
-* All about the approach, not the solution
-* Primarily Debugging
+* It's all about the approach, not the solution
+* Primarily: *Debugging*
 
+## Here is a markdown code example
+
+Before jumping into code, we talked about Markdown and its benefits. How you should use it for note taking (recommendation only) b/c as devs you are expected to know about it and know fundamental (basic) markdown syntax! So might as well get the practice in.
 
 ```javascript
 console.log('code example');
 ```
 
-
-
-
 ### Taught via Live Coding
 
-Write a node program that takes in an unlimited number of command line arguments, goes through each and prints out the sum of them. If any argument is not a whole number, skip it. Do support negative numbers though.
-
-
-
-
-
-
-
-
-
+> Write a node program that takes in an unlimited number of command line arguments, goes through each and prints out the sum of them. If any argument is not a whole number, skip it. Do support negative numbers though.
 
 ### Key Points
 
